@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>               
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <!-------Navbar------->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <img src="images/logo.png" height=50 width=60>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Home
+          </a>
+          <div class=" list dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Home-Page 1 </a>
+            <a class="dropdown-item" href="#">Home-Page 2</a>
+            <a class="dropdown-item" href="#">Home-Page 3</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Jobs
+          </a>
+          <div class=" list dropdown-menu" id="boom" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Job List</a>
+            <a class="dropdown-item" href="#">Favourite Jobs</a>
+            <a class="dropdown-item" href="#">Job Details</a>
+            <a class="dropdown-item" href="#">Post a Job</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Candidates
+          </a>
+          <div class=" list dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">candidates List</a>
+            <a class="dropdown-item" href="#">Candidates Details</a>
+            <a class="dropdown-item" href="#">Single Resume</a>
+            <a class="dropdown-item" href="#">Submit Resume</a>
+            <a class="dropdown-item" href="#">Pricing</a>
+            <a class="dropdown-item" href="#">Candidates Dashboard</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Pages
+          </a>
+          <div class=" list dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Company List</a>
+            <a class="dropdown-item" href="#">Company Details</a>
+            <a class="dropdown-item" href="#">LogIn Page</a>
+            <a class="dropdown-item" href="#">Create Account Page</a>
+            <a class="dropdown-item" href="#">Profile</a>
+            <a class="dropdown-item" href="#">Single Profile</a>
+            <a class="dropdown-item" href="#">404Error</a>
+            <a class="dropdown-item" href="#">FAQ</a>
+            <a class="dropdown-item" href="#">Terms And Conditions</a>
+            <a class="dropdown-item" href="#">Privacy Policy</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Blogs
+          </a>
+          <div class="list dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Blog</a>
+            <a class="dropdown-item" href="#">Blog Details</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        </ul>
+      <form class="form-inline my-2 my-lg-0 ml-auto">
+        <button class="buttom1 btn btn-outline-success my-2 my-sm-0" type="submit">LogIn</button>
+        <button class="buttom1 btn btn-outline-success my-2 my-sm-0" type="submit">SignUp</button>
+      </form>
+    </div>
+    </nav>
+    <!-------Navbar End------->
+
+
+   <!-------Header Section------->
+  <section class="header-section ">
+    <div class=" center-div container">
+      <h1 class="font-weight-bold" >Find Your <span id="desire">Desire</span> Job</h1>
+      <p>Jobs, Employment & Future Career Opportunities.</p>
+      <form class=" section-form form-inline mt-2 my-lg-0">
+        <input type="text" class=" form-control mb-2 mr-sm-2"  placeholder="Job Title" name="title">
+        <input type="text" class=" form-control mb-2 mr-sm-2"  placeholder="City or State" name="city">
+        <input type="text" class=" form-control mb-2 mr-sm-2"  placeholder="Job Catagory" name="city"> 
+        <button type="search" class="btn btn-primary mb-2"id="search">search</button>
+      </form>
+     <div class="header-buttom">
+       <a href="#"><button class="btn btn-primary mb-2" id="profile">Create Your Profile</button></a>
+       <a href="#"><button class=" btn btn-primary mb-2" id="cv">Upload Your CV</button></a>
+      </div>
+    </div> 
+  </section>
+    <!-------Header Section End------->
+
+
+  <!-------Section Resume start------->
+<section class="section-resume">
+  <div class="container">
+    <div class="row">
+       <div class="resume-icon col-md-4 col-md-4 col-12">
+          <a href="#"><i class="font-icon  fa-2x fa fa-address-book" aria-hidden="true"></i></a>
+          <h6>Register Your Account</h6>
+       </div>
+       <div class="resume-icon  col-lg-4 col-md-4 col-12">
+        <a href="#"><i class="font-icon fa-2x fa fa-file-pdf-o" aria-hidden="true"></i></a>
+        <h6>Upload Your Resume</h6>
+     </div>
+     <div class="resume-icon  col-lg-4 col-md-4 col-12">
+      <a href="#"><i class="font-icon fa-2x fa fa-file-pdf-o" aria-hidden="true"></i></a>
+      <h6>Apply for Dream Job</h6>
+     </div>
+    </div>
+  </div>
+</section>
+  <!------- Section Resume End------->
+
+
+  
+
+  <!------- Section Desire Start------->
+  <section class="section-desire">
+    <h2 class="font-weight-bold">Choose Your Desire Category</h2>
+    <div class="container">
+     <div class="row justify-content-center">
+        <div class="section-hidden section-catagory col-md-2 col-md-2 col-12">
+          <a href="#"><i class="fa fa-cog" aria-hidden="true" id="tech"></i></a>
+          <h6 class="font-book" id="tech1"> Technical Team Support</h6>
+       </div>
+       <div class="section-hidden section-catagory col-md-2 col-md-2 col-12">
+          <a href="#"><i class="fa fa-briefcase" aria-hidden="true" id="business"></i></a>
+          <h6 class="font-book" id="business1">Business Development</h6>
+       </div>
+       <div class="section-hidden section-catagory col-md-2 col-md-2 col-12">
+          <a href="#"><i class="fa fa-home" aria-hidden="true" id="estate"></i></a>
+          <h6 class="font-book" id="estate1">Real Estate Business</h6>
+       </div>
+       <div class="section-hidden section-catagory col-md-2 col-md-2 col-12">
+         <a href="#"><i class="fa fa-mars-double" aria-hidden="true" id="market"></i></a>
+         <h6 class="font-book" id="market1">Share Market Analysis</h6>
+       </div>
+       <div class="section-hidden section-catagory col-md-2 col-md-2 col-12">
+        <a href="#"><i class="fa fa-sun-o" aria-hidden="true" id="weather"></i></a>
+        <h6 class="font-book" id="weather1">Weather & Environment</h6>
+       </div>
+     </div>
+<!------row----->
+     
+     <div class="row justify-content-center">
+      <div class="section-hidden section-catagory col-md-2 col-md-2 col-12">
+        <a href="#"><i class="fa fa-university" aria-hidden="true" id="banking"></i></a>
+        <h6 class="font-book" id="banking1">Finance & Banking Service</h6>
+     </div>
+     <div class="section-hidden section-catagory col-md-2 col-md-2 col-12">
+        <a href="#"><i class="fa fa-rss" aria-hidden="true" id="network"></i></a>
+        <h6 class="font-book" id="network1">IT & Networking Services</h6>
+     </div>
+     <div class="section-hidden section-catagory col-md-2 col-md-2 col-12">
+        <a href="#"><i class="fa fa-cutlery" aria-hidden="true" id="restaurant"></i></a>
+        <h6 class="font-book" id="restaurant1">Restaurant Services</h6>
+     </div>
+     <div class="section-hidden section-catagory col-md-2 col-md-2 col-12">
+      <a href="#"><i class="fa fa-fire" aria-hidden="true" id="fire"></i></a>
+      <h6 class="font-book" id="fire1">Defence & Fire Services</h6>
+     </div>
+     <div class="section-hidden section-catagory col-md-2 col-md-2 col-12">
+      <a href="#"><i class="fa fa-truck" aria-hidden="true" id="ship"></i></a>
+      <h6 class="font-book" id="ship1">Home Delivery Services</h6>
+     </div>
+   </div>
+  </div>
+</section>
+<!------- Section Desire end------>
+
+
+
+
+
+
+
+<!------- section job portal start------>
+<section class="job-portal">
+  <div class="container">
+    <div class="">  
+     <div class="row justify-content-center">
+
+        <div class="  col-md-6 col-md-6 col-12">
+          <div class="box2">         
+             <img src="images/port3.png">
+             <div class="believe">
+            <h1><button> 100% Trusted</button></h1> 
+            </div>       
+          </div>       
+        </div>  
+  
+      <div class="  col-md-6 col-md-6 col-12">
+       <div class="box3">      
+          <h1>Trusted & Popular Job Portal </h1>
+          <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur.</p> 
+         
+          <a href="#"><button class="btn mb-2" id="post1" >Post a Job  <i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+          <a href="#"><button class="btn mb-2" id="post2" >Apply Now  <i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+         
+      </div> 
+     </div>
+          
+    </div>
+   </div>
+ </div> 
+      
+</section>
+<!------- section job portal end end------>
+
+
+
+
+<!------- Section Trust start------>
+<section class="trust">
+  <h2 class="font-weight-bold text-center">Recent Jobs</h2>
+  <div class="container">
+    <div class=" section-trust1 row justify-content-center">
+
+       <div class=section-trust>
+        <a href="#" class=""><button class=" button-trust btn  mb-2 active" id="alljob" >All</button></a>
+     
+      
+        <a href="#" class="anc-trust"><button class=" button-trust btn  mb-2">New</button></a>
+     
+      
+        <a href="#" class="anc-trust"><button class=" button-trust btn  mb-2">Featured</button></a>
+     
+      
+        <a href="#" class="anc-trust"><button class=" button-trust btn  mb-2">Recent</button></a>
+     
+      
+        <a href="#" class="anc-trust"><button class=" button-trust btn  mb-2">Full-time</button></a>
+     
+      
+        <a href="#" class="anc-trust"><button class=" button-trust btn  mb-2">part-time</button></a>
+       </div>
+      
+
+    </div>
+    </div>
+
+  <div class="container">
+    <div class="design">
+
+      <div class="row justify-content-center">
+ 
+         <div class="  col-md-6 col-md-6 col-12">
+            <div class="box1"> 
+            <div class="left"> <img src="images/job1.png"></div> 
+            <div class="middle"> 
+              <h4 class="head4">UI/UX Designer</h4>
+              <p class="trust-head"><a href="#" class="trust-head1" >winbrans.com</a></p>
+              <p><i class=" money fa fa-usd" aria-hidden="true" ></i>  $20k - $25k</i><p>
+              <p><i class=" money fa fa-map-marker" aria-hidden="true"></i>  Location 210-27 Quadra, Market Street, Victoria Canada</p> 
+            </div>
+           <div class="right">
+            <a href="#" class="apply"><button class="btn  mb-2" >Apply</button></a>
+            <p class="timing"><button class="btn mb2">Fulltime</button></p>
+           </div>
+          </div>       
+        </div>
+
+
+
+
+        <div class="  col-md-6 col-md-6 col-12">
+           <div class="box1">      
+          <div class="left"> <img src="images/job2.png"></div> 
+          <div class="middle"> 
+            <h4 class="head4">Android Developer</h4>
+            <p class="trust-head"><a href="#"class="trust-head1">Infiniza.com</a></p>
+            <p><i class=" money fa fa-usd" aria-hidden="true"></i>  $20k - $25k</i></p>
+            <p><i class=" money fa fa-map-marker" aria-hidden="true"></i>  Location 210-27 Quadra, Market Street, Victoria Canada</p> 
+          </div>
+         <div class="right">
+          <a href="#" class="apply"><button class="btn mb-2" >Apply</button></a>
+          <p class="timing"><button class="btn mb2">Parttime</button></p>
+         </div>
+        </div> 
+      </div>
+
+        
+
+      </div>
+
+
+
+
+      <div class="row justify-content-center">
+ 
+        <div class="  col-md-6 col-md-6 col-12">
+           <div class="box1"> 
+           <div class="left"> <img src="images/job3.png"></div> 
+           <div class="middle"> 
+             <h4 class="head4">Senior Manager</h4>
+             <p class="trust-head"><a href="#" class="trust-head1" >Glovibo.com</a></p>
+             <p><i class= "money fa fa-usd" aria-hidden="true"></i>  $20k - $25k</i><p>
+             <p><i class=" money fa fa-map-marker" aria-hidden="true"></i>  Location 210-27 Quadra, Market Street, Victoria Canada</p> 
+           </div>
+          <div class="right">
+           <a href="#" class="apply"><button class="btn  mb-2" >Apply</button></a>
+           <p class="timing"><button class="btn mb2">Intern</button></p>
+          </div>
+         </div>       
+       </div>
+
+
+
+
+       <div class="  col-md-6 col-md-6 col-12">
+          <div class="box1">      
+         <div class="left"> <img src="images/job4.png"></div> 
+         <div class="middle"> 
+           <h4 class="head4">Product Designer</h4>
+           <p class="trust-head"><a href="#"class="trust-head1">Bizotic.com</a></p>
+           <p><i class=" money fa fa-usd" aria-hidden="true"></i>  $20k - $25k</i></p>
+           <p><i class=" money fa fa-map-marker" aria-hidden="true"></i>  Location 210-27 Quadra, Market Street, Victoria Canada</p> 
+         </div>
+        <div class="right">
+         <a href="#" class="apply"><button class="btn mb-2" >Apply</button></a>
+         <p class="timing"><button class="btn mb2">Parttime</button></p>
+        </div>
+       </div> 
+     </div>
+
+       
+
+     </div>
+
+
+     <div class="row justify-content-center">
+ 
+      <div class="  col-md-6 col-md-6 col-12">
+         <div class="box1"> 
+         <div class="left"> <img src="images/job5.png"></div> 
+         <div class="middle"> 
+           <h4 class="head4">Digital Marketer</h4>
+           <p class="trust-head"><a href="#" class="trust-head1" >Hotelzos.com</a></p>
+           <p><i class=" money fa fa-usd" aria-hidden="true"></i>  $20k - $25k</i><p>
+           <p><i class=" money fa fa-map-marker" aria-hidden="true"></i> Location 210-27 Quadra, Market Street, Victoria Canada</p> 
+         </div>
+        <div class="right">
+         <a href="#" class="apply"><button class="btn  mb-2" >Apply</button></a>
+         <p class="timing"><button class="btn mb2">Intern</button></p>
+        </div>
+       </div>       
+     </div>
+
+
+
+
+     <div class="  col-md-6 col-md-6 col-12">
+        <div class="box1">      
+       <div class="left"> <img src="images/job6.png"></div> 
+       <div class="middle"> 
+         <h4 class="head4">Sales Manager</h4>
+         <p class="trust-head"><a href="#"class="trust-head1">Gozuto.com</a></p>
+         <p><i class=" money fa fa-usd" aria-hidden="true"></i>  $20k - $25k</i></p>
+         <p><i class=" money fa fa-map-marker" aria-hidden="true"></i> Location 210-27 Quadra, Market Street, Victoria Canada</p> 
+       </div>
+      <div class="right">
+       <a href="#" class="apply"><button class="btn mb-2" >Apply</button></a>
+       <p class="timing"><button class="btn mb2">Parttime</button></p>
+      </div>
+     </div> 
+   </div>
+
+     
+
+   </div>
+
+
+   <div class="row justify-content-center">
+ 
+    <div class="  col-md-6 col-md-6 col-12">
+       <div class="box1"> 
+       <div class="left"> <img src="images/job7.png"></div> 
+       <div class="middle"> 
+         <h4 class="head4">Web Developer</h4>
+         <p class="trust-head"><a href="#" class="trust-head1" >udiza.com</a></p>
+         <p><i class=" money fa fa-usd" aria-hidden="true"></i>  $20k - $25k</i><p>
+         <p><i class=" money fa fa-map-marker" aria-hidden="true"></i> Location 210-27 Quadra, Market Street, Victoria Canada</p> 
+       </div>
+      <div class="right">
+       <a href="#" class="apply"><button class="btn  mb-2" >Apply</button></a>
+       <p class="timing"><button class="btn mb2">Fulltime</button></p>
+      </div>
+     </div>       
+   </div>
+
+
+
+
+   <div class="  col-md-6 col-md-6 col-12">
+      <div class="box1">      
+     <div class="left"> <img src="images/job8.png"></div> 
+     <div class="middle"> 
+       <h4 class="head4">SEO</h4>
+       <p class="trust-head"><a href="#"class="trust-head1">Oquotaa.com</a></p>
+       <p><i class=" money fa fa-usd" aria-hidden="true"></i>  $20k - $25k</i></p>
+       <p><i class=" money fa fa-map-marker" aria-hidden="true"></i> Location 210-27 Quadra, Market Street, Victoria Canada</p> 
+     </div>
+    <div class="right">
+     <a href="#" class="apply"><button class="btn mb-2" >Apply</button></a>
+     <p class="timing"><button class="btn mb2">Parttime</button></p>
+    </div>
+   </div> 
+ </div>
+
+   
+
+ </div>
+
+
+    </div>
+  </div>   
+
+</section>
+<!------- Section Trust end------>
+
+
+
+
+<!------- Section numbers Start------>
+<section class="numbers">
+  <div class="container">
+    <div class="row text-center">
+
+      <div class=" numbers1 col-lg-3 col-md-3 col-12">
+        <i class="fa fa-users fa-3x"aria-hidden="true"></i>
+         <h1 class="numplug">14k+</h1>
+         <p>Job Available</p>
+      </div>
+      <div class=" numbers1 col-lg-3 col-md-3 col-12">
+        <i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i>
+         <h1 class="numplug">18k+</h1>
+         <p>CV Submitted</p>
+      </div>
+      <div class="numbers1 col-lg-3 col-md-3 col-12">
+        <i class="fa fa-building fa-3x" aria-hidden="true"></i>
+         <h1 class="numplug">9k+</h1>
+         <p>Companies</p>
+      </div>
+      <div class="numbers1 col-lg-3 col-md-3 col-12">
+         <i class="fa fa-file-archive-o fa-3x" aria-hidden="true"></i>
+         <h1 class="numplug">35k+</h1>
+         <p>Appointed to Job</p>
+      </div>
+
+
+    </div>
+  </div>
+  <script>
+    $('.numplug').counterUp({
+      Delay:10,
+      time:3000
+    })
+  </script>
+  
+</section>
+<!------- Section numbers end------>
+
+
+
+<!------- Section most popular start------>
+<section class="most-popular">
+  <div class="container">
+    <div class="">  
+     <div class="row justify-content-center">
+
+        <div class="  col-md-6 col-md-6 col-12">
+          <div class="box5">         
+             <img src="images/popular.png">
+                 
+          </div>       
+        </div>  
+  
+      <div class="  col-md-6 col-md-6 col-12">
+       <div class="box6">      
+          <h1>Why We are Most Popular </h1>
+          <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur.</p> 
+         <div class="container">
+           <div class="">
+
+            <div class="row justify-content-center">
+              <div class="  col-md-6 col-md-6 col-12">
+                <div class="box1-icon">
+                  <p><i class="box1-icon1 fa fa-address-book-o fa-2x" aria-hidden="true"></i>  Trusted & Quality Job</p>
+                </div>
+              </div>
+
+              <div class="  col-md-6 col-md-6 col-12">
+                <div class="box1-icon">
+                  <p><i class="box1-icon1 fa fa-building fa-2x " aria-hidden="true"></i>  Top Companies</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="  col-md-6 col-md-6 col-12">
+                <div class="box1-icon">
+                 <p> <i class="box1-icon1 fa fa-money fa-2x" aria-hidden="true"></i>  No Extra Charge</p> 
+                </div>
+              </div>
+              <div class="  col-md-6 col-md-6 col-12">
+                <div class="box1-icon">
+                 <p> <i class=" box1-icon1 fa fa-users fa-2x"aria-hidden="true"></i>  International Job</p>
+                </div>
+              </div>
+
+            </div>
+           </div>
+         </div>
+          
+          
+         
+      </div> 
+     </div>
+          
+    </div>
+   </div>
+ </div>
+</section>
+
+<!------- Section most popular end------>
+
+
+
+<!------- Carousel one Start popular companies------>  
+<section class="popular">
+  <div class="text-center">
+      <h1 class="comp-head font-weight-bold">Popular Companies</h1>
+  </div>
+ 
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  
+<div class="carousel-inner">
+
+    <div class="carousel-item active">
+         <div class="container">
+               <div class="row text-center">
+
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box">
+
+                     <img src="images/cs1.png" class="car-img img-fluid img thumbnail">
+                     <h4 class="car-heading"><a href="#" class="car-anc1">Winbrans.com</a></h4>
+                     <p class="last-paragraph"><i class="fa fa-map-marker" aria-hidden="true"></i> Quadra street,canada </p>
+                     <a href="#" class="car-button"><button class=" hiring btn btn-primary mb-2" id="patidev" >Hiring</button></a>
+
+
+                   </div>
+                 </div>
+
+
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box">
+
+                     <img src="images/cs2.png" class=" car-img img-fluid img thumbnail">
+                     <h4 class="car-heading"><a href="#" class="car-anc1">Infiniza.com</a></h4>
+                     <p class="last-paragraph"><i class="fa fa-map-marker" aria-hidden="true"></i> North street,California </p>
+                     <a href="#" class="car-button"><button class=" hiring btn btn-primary mb-2" >Hiring</button></a>
+
+
+                   </div>
+                 </div>
+
+
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box">
+
+                     <img src="images/cs3.png" class=" car-img img-fluid img thumbnail">
+                     <h4 class="car-heading"><a href="#" class="car-anc1">Glovibo.com</a></h4>
+                     <p class="last-paragraph"><i class="fa fa-map-marker" aria-hidden="true"></i> Barming Road,UK
+                     </p>
+                     <a href="#" class="car-button"><button class=" hiring  btn btn-primary mb-2" >Hiring</button></a>
+
+                   </div>
+                 </div>
+               
+
+               
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box">
+
+                     <img src="images/cs4.png" class=" car-img img-fluid img thumbnail">
+                     <h4 class="car-heading"><a href="#" class="car-anc1">Bizotic.com</a></h4>
+                     <p class="last-paragraph"><i class="fa fa-map-marker" aria-hidden="true"></i> Washinton,New York </p>
+                     <a href="#" class="car-button"><button class="  hiring btn btn-primary mb-2" >Hiring</button></a>
+
+                   </div>
+                 </div>
+
+              </div>
+         </div>   
+     </div>
+
+  <!-- slide show2 -->
+
+    <div class="carousel-item">
+        <div class="container">
+          <div class="row text-center">
+
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box">
+
+                     <img src="images/cs1.png" class="car-img img-fluid img thumbnail">
+                     <h4 class="car-heading"><a href="#" class="car-anc1">Winbrans.com</a></h4>
+                     <p class="last-paragraph"><i class="fa fa-map-marker" aria-hidden="true"></i> Quadra street,canada </p>
+                     <a href="#" class="car-button"><button class=" hiring  btn btn-primary mb-2" >Hiring</button></a>
+
+
+                   </div>
+                 </div>
+
+
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box">
+
+                     <img src="images/cs2.png" class=" car-img img-fluid img thumbnail">
+                     <h4 class="car-heading"><a href="#" class="car-anc1">Infiniza.com</a></h4>
+                     <p class="last-paragraph"><i class="fa fa-map-marker" aria-hidden="true"></i> North street,California </p>
+                     <a href="#" class="car-button"><button class=" hiring  btn btn-primary mb-2" >Hiring</button></a>
+
+
+                   </div>
+                 </div>
+
+
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box">
+
+                     <img src="images/cs3.png" class=" car-img img-fluid img thumbnail">
+                     <h4 class="car-heading"><a href="#" class="car-anc1">Glovibo.com</a></h4>
+                     <p class="last-paragraph"><i class="fa fa-map-marker" aria-hidden="true"></i> Barming Road,UK
+                     </p>
+                     <a href="#" class="car-button"><button class=" hiring  btn btn-primary mb-2" >Hiring</button></a>
+
+
+                   </div>
+                 </div>
+               
+
+               
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box">
+
+                     <img src="images/cs4.png" class=" car-img img-fluid img thumbnail">
+                     <h4 class="car-heading"><a href="#" class="car-anc1">Bizotic.com</a></h4>
+                     <p class="last-paragraph"><i class="fa fa-map-marker" aria-hidden="true"></i> Washinton,New York </p>
+                     <a href="#" class="car-button"><button class=" hiring  btn btn-primary mb-2" >Hiring</button></a>
+
+                   </div>
+                 </div>
+
+          </div>   
+        </div>
+    </div>
+
+
+  <!-- slideshow3 -->
+    <div class="carousel-item">
+       <div class="container">
+           <div class="row text-center">
+
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box">
+
+                     <img src="images/cs1.png" class="car-img img-fluid img thumbnail">
+                     <h4 class="car-heading"><a href="#" class="car-anc1">Winbrans.com</a></h4>
+                     <p class="last-paragraph"><i class="fa fa-map-marker" aria-hidden="true"></i> Quadra street,canada </p>
+                     <a href="#" class="car-button"><button class=" hiring  btn btn-primary mb-2" >Hiring</button></a>
+
+
+                   </div>
+                 </div>
+
+
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box">
+
+                     <img src="images/cs2.png" class=" car-img img-fluid img thumbnail">
+                     <h4 class="car-heading"><a href="#" class="car-anc1">Infiniza.com</a></h4>
+                     <p class="last-paragraph"><i class="fa fa-map-marker" aria-hidden="true"></i> North street,California </p>
+                     <a href="#" class="car-button"><button class=" hiring  btn btn-primary mb-2" >Hiring</button></a>
+
+
+                   </div>
+                 </div>
+
+
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box">
+
+                     <img src="images/cs3.png" class=" car-img img-fluid img thumbnail">
+                     <h4 class="car-heading"><a href="#" class="car-anc1">Glovibo.com</a></h4>
+                     <p class="last-paragraph"><i class="fa fa-map-marker" aria-hidden="true"></i> Barming Road,UK
+                     </p>
+                     <a href="#" class="car-button"><button class=" hiring  btn btn-primary mb-2" >Hiring</button></a>
+
+
+                   </div>
+                 </div>
+               
+
+               
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box">
+
+                     <img src="images/cs4.png" class=" car-img img-fluid img thumbnail">
+                     <h4 class="car-heading"><a href="#" class="car-anc1">Bizotic.com</a></h4>
+                     <p class="last-paragraph"><i class="fa fa-map-marker" aria-hidden="true"></i> Washinton,New York </p>
+                     <a href="#" class="car-button"><button class=" hiring btn btn-primary mb-2" >Hiring</button></a>
+
+                   </div>
+                 </div>
+
+           </div>           
+       </div>
+    </div>
+
+
+  </div>
+
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div> 
+ </section>
+<!------- Carousel one popular companies End------>
+  
+ 
+<!------- Carousel two featured profile Start------>
+<section class="cls1-card">
+  <div class="text-center">
+      <h1 class="card1-head font-weight-bold">Featured Profile </h1>
+  </div>
+ 
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  
+<div class="carousel-inner">
+
+    <div class="carousel-item active">
+         <div class="container">
+               <div class="row">
+
+                 <div class="col-lg-3 col-md-3 col-12">
+                   <div class="box3">
+
+                    <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+                    <div class="box3-body">
+                      <h5 class="box3-heading">Jerry Hudson </h5>
+                      <p class="box3-text">Business Consultant</p>
+                      <div class="box3-symbol">
+                      <a href="#" class="box3-symbol1">view profile <i class="fa fa-arrow-right" aria-hidden="true"></i></a>   
+                       <i class=" box3-heart fa fa-heart" aria-hidden="true"></i>
+                      </div>
+                    </div>
+
+
+                   </div>
+                 </div>
+
+
+                 <div class="col-lg-3 col-md-3 col-12">
+                  <div class="box3">
+
+                   <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+                   <div class="box3-body">
+                     <h5 class="box3-heading">Jac Jacson </h5>
+                     <p class="box3-text">Web Consultant</p>
+                     <div class="box3-symbol">
+                     <a href="#" class="box3-symbol1">view profile <i class="fa fa-arrow-right" aria-hidden="true"></i></a>   
+                      <i class=" box3-heart fa fa-heart" aria-hidden="true"></i>
+                     </div>
+                   </div>
+
+
+                  </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-12">
+                  <div class="box3">
+
+                   <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+                   <div class="box3-body">
+                     <h5 class="box3-heading">Tom Potter </h5>
+                     <p class="box3-text">UI/UX Consultant</p>
+                     <div class="box3-symbol">
+                     <a href="#" class="box3-symbol1">view profile <i class="fa fa-arrow-right" aria-hidden="true"></i></a>   
+                      <i class=" box3-heart fa fa-heart" aria-hidden="true"></i>
+                     </div>
+                   </div>
+
+
+                  </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-12">
+                  <div class="box3">
+
+                   <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+                   <div class="box3-body">
+                     <h5 class="box3-heading">Shane Mac</h5>
+                     <p class="box3-text">SEO Consultant</p>
+                     <div class="box3-symbol">
+                     <a href="#" class="box3-symbol1">view profile <i class="fa fa-arrow-right" aria-hidden="true"></i></a>   
+                      <i class=" box3-heart fa fa-heart" aria-hidden="true"></i>
+                     </div>
+                   </div>
+
+
+                  </div>
+                </div>
+               
+               
+               
+                 
+
+              </div>
+         </div>   
+     </div>
+
+  <!-- slide show2 -->
+  <div class="carousel-item ">
+    <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-12">
+              <div class="box3">
+
+               <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+               <div class="box3-body">
+                 <h5 class="box3-heading">Jerry Hudson </h5>
+                 <p class="box3-text">Business Consultant</p>
+                 <div class="box3-symbol">
+                 <a href="#" class="box3-symbol1">view profile <i class="fa fa-arrow-right" aria-hidden="true"></i></a>   
+                  <i class=" box3-heart fa fa-heart" aria-hidden="true"></i>
+                 </div>
+               </div>
+
+
+              </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-3 col-12">
+             <div class="box3">
+
+              <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+              <div class="box3-body">
+                <h5 class="box3-heading">Jac Jacson </h5>
+                <p class="box3-text">Web Consultant</p>
+                <div class="box3-symbol">
+                <a href="#" class="box3-symbol1">view profile <i class="fa fa-arrow-right" aria-hidden="true"></i></a>   
+                 <i class=" box3-heart fa fa-heart" aria-hidden="true"></i>
+                </div>
+              </div>
+
+
+             </div>
+           </div>
+
+
+           <div class="col-lg-3 col-md-3 col-12">
+             <div class="box3">
+
+              <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+              <div class="box3-body">
+                <h5 class="box3-heading">Tom Potter </h5>
+                <p class="box3-text">UI/UX Consultant</p>
+                <div class="box3-symbol">
+                <a href="#" class="box3-symbol1">view profile <i class="fa fa-arrow-right" aria-hidden="true"></i></a>   
+                 <i class=" box3-heart fa fa-heart" aria-hidden="true"></i>
+                </div>
+              </div>
+
+
+             </div>
+           </div>
+
+
+           <div class="col-lg-3 col-md-3 col-12">
+             <div class="box3">
+
+              <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+              <div class="box3-body">
+                <h5 class="box3-heading">Shane Mac</h5>
+                <p class="box3-text">SEO Consultant</p>
+                <div class="box3-symbol">
+                <a href="#" class="box3-symbol1">view profile <i class="fa fa-arrow-right" aria-hidden="true"></i></a>   
+                 <i class=" box3-heart fa fa-heart" aria-hidden="true"></i>
+                </div>
+              </div>
+
+
+             </div>
+           </div>
+          
+          
+          
+            
+
+         </div>
+    </div>   
+</div>
+    
+
+
+  <!-- slideshow3 -->
+  <div class="carousel-item ">
+    <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-12">
+              <div class="box3">
+
+               <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+               <div class="box3-body">
+                 <h5 class="box3-heading">Jerry Hudson </h5>
+                 <p class="box3-text">Business Consultant</p>
+                 <div class="box3-symbol">
+                 <a href="#" class="box3-symbol1">view profile <i class="fa fa-arrow-right" aria-hidden="true"></i></a>   
+                  <i class=" box3-heart fa fa-heart" aria-hidden="true"></i>
+                 </div>
+               </div>
+
+
+              </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-3 col-12">
+             <div class="box3">
+
+              <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+              <div class="box3-body">
+                <h5 class="box3-heading">Jac Jacson </h5>
+                <p class="box3-text">Web Consultant</p>
+                <div class="box3-symbol">
+                <a href="#" class="box3-symbol1">view profile <i class="fa fa-arrow-right" aria-hidden="true"></i></a>   
+                 <i class=" box3-heart fa fa-heart" aria-hidden="true"></i>
+                </div>
+              </div>
+
+
+             </div>
+           </div>
+
+
+           <div class="col-lg-3 col-md-3 col-12">
+             <div class="box3">
+
+              <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+              <div class="box3-body">
+                <h5 class="box3-heading">Tom Potter </h5>
+                <p class="box3-text">UI/UX Consultant</p>
+                <div class="box3-symbol">
+                <a href="#" class="box3-symbol1">view profile <i class="fa fa-arrow-right" aria-hidden="true"></i></a>   
+                 <i class=" box3-heart fa fa-heart" aria-hidden="true"></i>
+                </div>
+              </div>
+
+
+             </div>
+           </div>
+
+
+           <div class="col-lg-3 col-md-3 col-12">
+             <div class="box3">
+
+              <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+              <div class="box3-body">
+                <h5 class="box3-heading">Shane Mac</h5>
+                <p class="box3-text">SEO Consultant</p>
+                <div class="box3-symbol">
+                <a href="#" class="box3-symbol1">view profile <i class="fa fa-arrow-right" aria-hidden="true"></i></a>   
+                 <i class=" box3-heart fa fa-heart" aria-hidden="true"></i>
+                </div>
+              </div>
+
+
+             </div>
+           </div>
+          
+          
+          
+            
+
+         </div>
+    </div>   
+</div>
+
+
+  </div>
+
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div> 
+ </section>
+<!------- Carousel two featured profile End------>
+
+
+<!------- Section mobile app Start------>
+<section class="mobile">
+  <div class="container mobile1">
+    <div class="mobile1">
+
+      <div class="row justify-content-center">
+ 
+        <div class="  col-md-6 col-md-6 col-12">
+          <div class="glabe1">
+           <img class="glab-img1" src="images/easy.png">     
+           <img class="glab-img" src="images/easy.png">  
+          </div> 
+       </div>
+
+
+
+
+       <div class="  col-md-6 col-md-6 col-12">
+          <div class="glabe2">      
+                <h1>Download The Glabe Mobile App</h1>
+                <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+        
+                <a href="#"><button class="btn mb-2"> 
+                  <div class="glabe2-icon">
+
+                    <i class="fa fa-apple fa-2x" aria-hidden="true"></i>
+                    <span class="globe2-i1">Download on The</span>
+                    <span class="globe2-i2"><h6>App Store</h6</span>
+
+                    </div>
+                  </button></a>
+                  <a href="#"><button class="btn mb-2"> 
+                    <div class="glabe2-icon">
+  
+                      <i class="fa fa-android fa-2x" aria-hidden="true"></i>
+                      <span class="globe2-i1">Android app on</span>
+                      <span class="globe2-i2"><h6>Google Play</h6></span>
+  
+                      </div>
+                    </button></a>
+
+         
+                
+          </div> 
+       </div>
+
+       
+
+
+
+     </div>
+
+    </div>
+  </div>
+   
+</section>
+<!------- Section mobile app End------>
+
+
+
+
+<!------- Latest Blogs Start ------>
+<section class="latest-blog">
+  <div class="blog-heading">
+    <h1>Our Latest Blogs</h1>
+  </div>
+  <div class="container">
+    
+      <div class="row justify-content-center">
+
+        <div class="col-md-4 col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">The next generation IT will change the world</h5>
+              <div class="card-last">
+                <p class="card-img1"> <img src="images/pass2.jpg"> Aikin Ward</p>
+               <a href="#" class="sabu">Read more <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">It is the most important sector in the world</h5>
+              <div class="card-last">
+                <p class="card-img1"> <img src="images/pass2.jpg"> Aikin Ward</p>
+               <a href="#" class="sabu">Read more <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" src="images/formal2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Now a days IT is being most popular</h5>
+              <div class="card-last">
+                <p class="card-img1"> <img src="images/pass2.jpg"> Aikin Ward</p>
+               <a href="#" class="sabu">Read more <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  
+  </div>
+
+</section>
+<!-------Latest Blog  End  ------>
+
+
+
+
+
+
+
+
+<!------- footer section start------>
+<footer class=" last-section text-center">
+  <section class="">
+    <div class=" container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <img src="images/logo-two.png"  height=70 width=70>
+          <p id="last-pa">
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p> 
+          <div class="text-center">
+            <a href="" class="me-4 text-reset">
+              <i class=" last-icon fa fa-youtube-play" aria-hidden="true"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class=" last-icon fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class=" last-icon fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="last-icon fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="last-part col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h4 class="last-heading">Catagory </h4>
+          <p class="last-anchor">
+            <a href="#" class="last-anchor1 text-reset">Development</a>
+          </p>
+          <p class="last-anchor">
+            <a href="#" class="last-anchor1 text-reset">Business</a>
+          </p>
+          <p class="last-anchor">
+            <a href="#" class="last-anchor1 text-reset">Tech & IT</a>
+          </p>
+          
+          <p class="last-anchor">
+            <a href="#" class="last-anchor1 text-reset">Finance</a>
+          </p>
+          <p class="last-anchor" >
+            <a href="#" class="last-anchor1 text-reset">Networking</a>
+          </p>
+        </div>
+        
+
+        <div class=" last-part col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h4 class="last-heading">Quick Links  </h4>
+          <p class="last-anchor">
+            <a href="#"  class="last-anchor1 text-reset">Home</a>
+          </p>
+          <p class="last-anchor">
+            <a href="#" class="last-anchor1 text-reset">About Us</a>
+          </p>
+          <p class="last-anchor">
+            <a href="#" class="last-anchor1 text-reset">Blogs</a>
+          </p>
+          <p class="last-anchor">
+            <a href="#" class="last-anchor1 text-reset">Companies</a>
+          </p >
+          <p class="last-anchor">
+            <a href="#" class="last-anchor1 text-reset">Testimonials</a>
+          </p>
+        </div>
+        
+
+        
+        <div class=" last-part col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h4 class="last-heading">Find Us</h4>
+          <p class="last-para"><i class="fa fa-map-marker" aria-hidden="true"></i> 28/A Street, New York City</p>
+          <p class="last-para"><i class="fa fa-phone" aria-hidden="true"></i> +88 0123 456 789</p>
+          <p class="last-para"><i class="fa fa-envelope" aria-hidden="true"></i> hello@peof.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Copyright -->
+  <div class="text-left p-4" style=" color:white; background-color: rgba(247, 238, 238, 0.05);">
+    Copyright @2020 Peof. Designed by HiBootstrap
+   
+  </div>
+  
+   
+    
+  
+  <!-- Copyright -->
+</footer>
+<!------- footer section end------>
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+</body>
+</html>
